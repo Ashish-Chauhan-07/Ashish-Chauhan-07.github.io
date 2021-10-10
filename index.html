@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Personal Website" />
+    <link href="Styles/index.css" rel="stylesheet" />
+    <link href="Styles/queries.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap"
+      rel="stylesheet"
+    />
+    <title>Personal Homepage</title>
+  </head>
+  <body onLoad="display_time(); display_default();">
+    <div class="container">
+      <div class="check">
+        <p class="date"><span id="datetime"> </span></p>
+      </div>
+
+      <h1 align="center">Ashish Chauhan</h1>
+
+      <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Introduction')">
+          Home
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'About')">
+          About
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Acad')">
+          Education
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Hobbies')">
+          Hobbies
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Links')">
+          Connect
+        </button>
+      </div>
+
+      <div id="Introduction" class="tabcontent">
+        <h3>..🏠..</h3>
+
+        <p>
+          Hello! And welcome to my page!
+          <br />
+        </p>
+        <p>
+          Yes, this is me looking at you..🧐
+          <br />
+          {vice-versa}
+        </p>
+        <p>
+          <img
+            src="https://i.ibb.co/HzM9s9T/mine-1.jpg"
+            alt="pic of mine"
+            class="dp"
+          />
+        </p>
+        <p>Okay, now switch to next tabs..</p>
+      </div>
+
+      <div id="About" class="tabcontent">
+        <h3>Know more about me..!</h3>
+
+        <p>
+          Hello There.. <br />I'm from Bijnor(UP). I've been brought up in a
+          village and I feel lucky to have experienced that. <br /><br />
+          Currently I'm pursuing my M.Tech in Computer Science and Engineering
+          at <strong>IIIT Hyderabad</strong>. <br />I have completed my
+          Bachelors of Technology in Computer Science and Engineering from
+          Bundelkhand Institute of Engineering and Technology, Jhansi
+          (2k17-2021).
+        </p>
+
+        <br />
+        <p>
+          For more details feel free to reach out to me : <br />
+          <a href="mailto:Ashish.chauhan@students.iiit.ac.in">
+            <em>Mail </em>
+          </a>
+          --/--
+          <a href="tel:9548588798" class="mobile">Mobile</a>
+        </p>
+        <p><br /></p>
+      </div>
+
+      <div id="Acad" class="tabcontent">
+        <h3>..📚..</h3>
+
+        <table class="table" border="1" , align="center">
+          <tr>
+            <th>Institute</th>
+            <th>Degree</th>
+            <th>Year of Passing</th>
+          </tr>
+
+          <tr>
+            <td rowspan="2">R.R. Morarka Public School</td>
+            <td>High School</td>
+            <td>2014</td>
+          </tr>
+
+          <tr>
+            <td>Senior Secondary</td>
+            <td>2016</td>
+          </tr>
+
+          <tr>
+            <td>BIET, Jhansi</td>
+            <td>B.Tech [CSE]</td>
+            <td>2021</td>
+          </tr>
+
+          <tr>
+            <td>IIIT, Hyderabad</td>
+            <td>M.Tech [CSE]</td>
+            <td>2023</td>
+          </tr>
+        </table>
+        <p><br /></p>
+      </div>
+
+      <div id="Hobbies" class="tabcontent">
+        <h3>What do I like..?</h3>
+
+        <p>There is a plethora of topics which fascinate me :</p>
+        <!-- <img
+          src="https://i.ibb.co/Y3Q9KVg/kakashi.gif"
+          alt="kakashi"
+          width="100"
+          height="auto"
+        /> -->
+        <ul>
+          <li>
+            <em>Anime</em> -> Checkout my Anime List
+            <a href="https://myanimelist.net/animelist/AshishChauhan07">here</a>
+          </li>
+          <li>
+            <em>Coding</em> -> Well I've to do it ryt? {Coursework smiling 🥲}
+          </li>
+          <li><em>Travelling</em> -> Have to visit many places in my list.</li>
+          <li>
+            <em>TV Series</em> -> If not watching an anime, then must've found
+            some good TV Series.
+          </li>
+          <li>
+            <em>Gyaan Baantna</em> -> Well somehow I end up giving good
+            advices..
+          </li>
+        </ul>
+        <p><br /></p>
+      </div>
+
+      <div id="Links" class="tabcontent">
+        <h3><--Links--></h3>
+
+        <p>Institute weblink and other important links :</p>
+        <div class="connect-links">
+          <div>
+            <a href="https://www.iiit.ac.in/">
+              <img
+                src="https://i.ibb.co/fxq7XkS/iiit-new.png"
+                alt="iiit-h"
+                width="125"
+                height="75"
+              />
+            </a>
+          </div>
+
+          <div>
+            <a href="https://www.linkedin.com/in/ashishchauhan07/"
+              ><img
+                src="https://i.ibb.co/0qSCtZp/LI-In-Bug.png"
+                alt="linkedin"
+                width="100"
+                height="auto"
+            /></a>
+          </div>
+
+          <div>
+            <a
+              href="https://drive.google.com/file/d/1MqnM4D9nY6DJqrUYZ2xqawvLMTHh4kts/view?usp=sharing"
+              target="_blank"
+              ><img
+                src="https://i.ibb.co/5WKsGBx/cv-5973796-960-720.png"
+                alt="resume"
+                width="100"
+                height="auto"
+            /></a>
+          </div>
+
+          <div>
+            <a href="https://myanimelist.net/animelist/AshishChauhan07"
+              ><img
+                src="https://i.ibb.co/mFmbcJ1/My-Anime-List-Logo.pngg"
+                alt="myanimelist"
+                width="100"
+                height="auto"
+            /></a>
+          </div>
+        </div>
+        <p><br /></p>
+      </div>
+    </div>
+    <footer>
+      <marquee
+        behavior="scroll"
+        direction="left"
+        onmouseover="this.stop();"
+        onmouseout="this.start();"
+      >
+        Welcome to Ashish's Portfolio! Click on any of the tabs for more info :)
+      </marquee>
+    </footer>
+  </body>
+  <script src="Scripts/logic.js"></script>
+</html>
