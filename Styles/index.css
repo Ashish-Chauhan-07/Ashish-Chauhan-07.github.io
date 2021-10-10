@@ -1,0 +1,92 @@
+/* .container {
+  width: 1200px;
+  margin: 0 auto;
+} */
+
+.date {
+  margin-bottom: 0px;
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  margin-top: 0px;
+}
+
+span {
+  font-size: 65%;
+}
+
+body {
+  font-family: monospace;
+  font-size: 20px;
+  line-height: 1.5;
+  background-image: url("https://i.ibb.co/Xsd5qZr/photo-1554034483-04fda0d3507b.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: mintcream;
+  margin: 0px;
+}
+
+.tab {
+  background-color: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab button {
+  background-color: inherit;
+  font-style: italic;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 14px 16px;
+}
+
+.tab button:hover {
+  background-color: rgb(122, 122, 122);
+}
+
+.tab button:focus {
+  background-color: #1098ad;
+  font-style: normal;
+}
+
+.tabcontent {
+  display: none;
+  padding: 0px 8px;
+}
+
+.connect-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: "Ephesis", cursive;
+}
+
+h3 {
+  color: rgb(97, 175, 8);
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+a:link {
+  color: #7f4496;
+  text-decoration: none;
+}
+
+.dp {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 175px;
+  height: auto;
+}
